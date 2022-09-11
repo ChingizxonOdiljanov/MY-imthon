@@ -1,5 +1,5 @@
 .hero__container{
-    background-image: url(../../img/Bitmap\ \(3\).png);
+    background-image: url(../../img/Bitmap\ \(4\).png);
     margin-bottom: 103px;
     background-repeat: no-repeat;
     /* background-position: ; */
@@ -12,11 +12,12 @@
     padding-left: 165px;
     padding-top: 153px;
     gap: 40px;
+    margin-bottom: 160px;
 }
 
 .hero__title{
-    width: 500px;
-    height: 112px;
+    max-width: 500px;
+   max-height: 112px;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -29,8 +30,8 @@
 }
 
 .hero__desc{
-    width: 405px;
-    height: 100px;
+   max-width: 405px;
+   max-height: 100px;
     font-family: 'Lexend Deca';
     font-style: normal;
     font-weight: 400;
@@ -52,18 +53,19 @@
     text-align: center;
     color: #FFFFFF;
     border: none;
-    width: 180px;
-    height: 53px;
+    max-width: 180px;
+    max-height: 53px;
     background-color : #FCB72B; 
     margin-left: 100px;
+    padding: 14px 39px ;
 }
 .hero__img{
     position: relative;
     right:165px;
-    bottom: 165px;
+    bottom: 190px;
 }
 .hero__img--2{
     position:relative ;
     left: 535px;
-    bottom:220px;
+    bottom:246px;
 }
