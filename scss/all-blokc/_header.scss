@@ -1,0 +1,54 @@
+header{
+    .header__container{
+        display: flex;
+        gap: 58.18px;
+        align-items: center;
+        padding-top:34px ;
+        justify-content: center;
+        margin-bottom: 21px;
+    }
+
+    .header__logo--link{
+        text-decoration: none;
+    }
+    // NAVBAR
+    .header__navbar{
+        display: flex;
+        list-style: none;
+        gap: 32px;
+        align-items: center;
+        margin-right: 551px;
+    }
+    // DAVOMI
+    .header__items--link{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+        color: #939CAA;
+        width: 46px;
+        height: 25px;
+        text-decoration: none;
+        transition: 0.7s;
+    }
+    .header__items--link:hover{
+        color: #000000;
+    }
+    .header__btn{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+        text-align: center;
+        color: #FFFFFF;
+        width: 180px;
+        height: 53px;
+        border: none;
+        background-color : #FCB72B; 
+    }
+
+}
