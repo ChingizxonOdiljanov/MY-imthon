@@ -6,5 +6,44 @@
         display: flex;
         gap: 30px;
         list-style: none;
+        align-items: center;
+        padding: 0 40px;
     }
+    .collection__img--path{
+        margin-right: 10px;
+    }
+    .collection__items{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        position: relative;
+        bottom: 70px;
+        left: 100px;
+    }
+
+    .collection__items--title{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height, or 117% */
+        letter-spacing: -1.07143px;
+        color: #495567;
+        width: 350px ;
+        height: 28px;
+    }
+    .collection__items--desc{
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        color: #939CAA;
+        width: 350px;
+        height: 100px;
+    }
+
+   
 }
