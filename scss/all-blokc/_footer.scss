@@ -1,11 +1,19 @@
 footer{
 
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
     .end{
         width: 1440px;
         height: 300px;
         background-image: url(../../img/Mask\ \(3\).png);
         background-repeat: no-repeat;
         background-size: contain;
+        display: flex;
+        gap: 336px;
     }
 
     .end__title{
@@ -23,6 +31,112 @@ footer{
         padding-left: 165px;
     }
 
-    
+    .end__2{
+        background-color:#E5ECF4;
+        width: 200px;
+        height:65px;
+        display: flex;
+        border-radius: 4px;
+        gap: 30px;
+        margin-top: 160px;
+        padding: 15px;
+    }
 
+    .end__2--part{
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .end__2--tile{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 15px;
+        /* identical to box height */
+        letter-spacing: -0.446429px;
+        color: #495567;
+        width: 92px;
+        height: 15px;
+        margin: 0;
+    }
+
+    .end__2--desc{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+        letter-spacing: -0.892857px;
+        color: #495567;
+        width: 92px;
+        height: 24px;
+        margin: 0;
+    }
+
+    .end__3{
+        background-color:#E5ECF4;
+        width: 200px;
+        height:65px;
+        display: flex;
+        border-radius: 4px;
+        gap: 30px;
+        margin-top: 160px;
+        padding: 20px;
+        padding-right: 40px;
+        margin-left:50px;
+        position: relative ;
+        bottom: 175px;
+        }
+    
+        // FOOOETR
+        .footer__container--1{
+            display: flex;
+            justify-content: space-between;
+            gap: 58.18px;
+            align-items: center;
+            padding:10px 10px 10px 10px;
+            justify-content: center;
+            margin-bottom: 21px;
+            background-color: #333A44;
+            width: 1440px;
+        }
+    
+        .footer__logo--link{
+            text-decoration: none;
+        }
+        // NAVBAR
+        .footer__navbar{
+            display: flex;
+            list-style: none;
+            gap: 32px;
+            align-items: center;
+            margin-right: 551px;
+        }
+        // DAVOMI
+        .footer__items--link{
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            /* identical to box height, or 167% */
+            color: #939CAA;
+             max-width: 46px;
+            max-height: 25px;
+            text-decoration: none;
+            transition: 0.7s;
+        }
+        .footer__items--link:hover{
+            color: #000000;
+        }
+
+        .footer__end--end{
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+      
 }
